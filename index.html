@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--MAIN STYLESHEET-->
+    <link rel="stylesheet" href="style.css">
+    <title>Convertisseur de température</title>
+</head>
+<body>
+    <!--WRAPPER-->
+    <div id="wrapper">
+        <h1>Convertisseur de température</h1>
+        <div id="input-container">
+            <label for="number">Entrez un nombre à convertir</label>
+            <input type="number" name="" id="number">
+        </div>
+        <div id="select-container">
+            <label for="initial-value">De</label>
+            <select name="" id="initial-value">
+                <option value="°C">°C</option>
+                <option value="°F">°F</option>
+                <option value="K">K</option>
+            </select>
+            <label for="final-value">À</label>
+            <select name="" id="final-value">
+                <option value="°F">°F</option>
+                <option value="K">K</option>
+                <option value="°C">°C</option>
+            </select>
+        </div>
+        
+        <button id="convert-btn">Convertir</button>
+        <div id="result">
+            <p></p>
+        </div>
+    </div><!--END WRAPPER-->
+    <!--MAIN SCRIPTING FILE-->
+    <script src="./script.js"></script>
+</body>
+</html>
