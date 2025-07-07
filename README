@@ -1,0 +1,67 @@
+# 🌡️ Temperature Converter App
+
+This is a simple and responsive Temperature Converter application built with HTML, CSS, and JavaScript. It allows users to convert temperatures between Celsius, Fahrenheit, and Kelvin in real-time.
+
+## 🚀 Features
+
+- Convert between:
+  - Celsius (°C)
+  - Fahrenheit (°F)
+  - Kelvin (K)
+- Real-time conversion as the user types
+- Dropdowns to select input and output units
+- Clean, mobile-friendly interface custom CSS
+- Error handling for invalid input
+
+## 🔗 Live Demo
+
+👉 [Live Demo](https://temperature-converter-app-mu.vercel.app/)  
+
+## 🛠 Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+
+## 📦 Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/CharlesFaye/temperature-converter-app.git
+
+3. Open index.html in your browser
+(or use Live Server in VS Code)
+
+🧠 How It Works
+. User enters a temperature in one unit (e.g., °C).
+
+. JavaScript listens for input events and applies conversion formulas:
+
+    . °F = (°C × 9/5) + 32
+
+    . K = °C + 273.15
+
+    . etc.
+
+. The result is displayed instantly in the selected output unit.
+
+. Input validation ensures only numbers are processed.
+
+🗂️ Project Structure
+temperature-converter/
+├── index.html        # Main layout
+├── script.js         # Conversion logic
+└── style.css         # Custom styling 
+
+🔧 Optional Features
+. Dark mode toggle
+
+. Convert automatically when changing unit types
+
+. Swap input and output units with one click
+
+. Support for decimals and rounding preferences
+
+👤 Author
+Created by Charles Faye.
