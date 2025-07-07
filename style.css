@@ -1,0 +1,69 @@
+/**
+** CSS VARIABLES STYLES
+**/
+:root {
+    --border-radius: 10px;
+    --padding: 10px;
+    --align-text-center : center;
+}
+/**
+** GENERAL STYLES
+**/
+#wrapper {
+    width: calc(50vw + 100px);
+    margin: 50px auto;
+    background-color: whitesmoke;
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    box-shadow: 5px 5px 5px #000;
+}
+h1 {
+    font-size: clamp(1rem, 1.8rem, 2rem);
+    text-align: var(--align-text-center);
+    text-decoration: underline;
+}
+#input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#input-container label {
+    display: block;
+    margin: auto;
+    font-size: 1.2rem;
+}
+#input-container input {
+    width: calc(20vw + 50px);
+    margin: auto;
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    outline: none;
+}
+#select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+#select-container > select {
+    padding: 5px 20px;
+    border-radius: var(--border-radius);
+}
+#result p{
+    text-align: var(--align-text-center);
+    color: green;
+}
+#convert-btn {
+    display: block;
+    margin: 50px auto;
+    padding: var(--padding) 15px;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    background-color: rgb(4, 4, 54);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+}
